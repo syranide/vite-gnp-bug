@@ -1,0 +1,1 @@
+var l=Object.defineProperty;var n=(s,o,c)=>o in s?l(s,o,{enumerable:!0,configurable:!0,writable:!0,value:c}):s[o]=c;var e=(s,o,c)=>n(s,typeof o!="symbol"?o+"":o,c);(function(){"use strict";class s{constructor(){e(this,"bar",!1)}}console.log(new s)})();
